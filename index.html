@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ML Converter</title>
+    <link rel="icon" href="ML_Logo-Title.png" type="image/icon type">
+</head>
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md color navbar-light py-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="ML_Logo.png" alt="" width="60" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item"> <h1 style="font-family: monospace;" class="text-light text-center">Machine Learning Converter</h1> </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav item">
+                        <a href="https://www.geeksforgeeks.org/machine-learning/" target="_blank" class="nav-link text-light">About ML</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-light text-secondary p-5 texr-center">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <p class="lead">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed. ML is one of the most exciting technologies that one would have ever come across. As it is evident from the name, it gives the computer that makes it more similar to humans: The ability to learn. Machine learning is actively being used today, perhaps in many more places than one would expect.
+                    </p> 
+                    <br>
+                </div>
+                <img class="image-fluid w-50 d-none d-sm-block" style="padding-left: 120px;" src="undraw_spreadsheets_re_alt0.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    
+    <section class="bg-light text-secondary p-5">
+        <div class="container">
+            <h2 class="mb-3">
+                UPLOAD YOUR <span class="text-dark h1">
+                    CSV
+                </span>
+            </h2>
+            <div class="input-group mb-3" style="width: 40%;">
+                <input type="file" class="form-control" id="csv">
+            </div>
+        </div>
+
+        <br>
+
+        <h1 class="text-dark">Supervised Learning</h1> <br>
+
+        <h3 class="text-dark">Classification</h3>
+        <p>
+            In Machine Learning and Statistics, Classification is the problem of identifying to which of a set of categories (subpopulations), a new observation belongs, on the basis of a training set of data containing observations and whose categories membership is known. Classification is of two types: Binary Classification, Multiclass Classification.
+        </p>
+        <button type="button" class="btn btn-color text-light">Binary Classification</button>
+        <button type="button" class="btn btn-color text-light">Multiclass Classification</button>
+        <br>
+        <br>
+        <h3 class="text-dark">Regression</h3>
+        <p>
+            Regression Analysis is a statistical process for estimating the relationships between the dependent variables or criterion variables and one or more independent variables or predictors. Regression analysis explains the changes in criteria in relation to changes in select predictors. The conditional expectation of the criteria is based on predictors where the average value of the dependent variables is given when the independent variables are changed. Three major uses for regression analysis are determining the strength of predictors, forecasting an effect, and trend forecasting. 
+        </p>
+        <button type="button" class="btn btn-color text-light">Linear Regression</button>
+        <button type="button" class="btn btn-color text-light">Polynomial Regression</button>
+        <button type="button" class="btn btn-color text-light">Lasso Regression</button>
+        <button type="button" class="btn btn-color text-light">Ridge Regression</button>
+        <button type="button" class="btn btn-color text-light">Elastic Net Regression</button>
+        <button type="button" class="btn btn-color text-light">Logistic Regression</button>
+
+        <br> <br> <br>
+
+        <h1 class="text-dark">Unsupervised Learning</h1> <br>
+
+        <h3 class="text-dark">Clustering</h3>
+        <p>
+            Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups. It is basically a collection of objects on the basis of similarity and dissimilarity between them. 
+        </p>
+        <button type="button" class="btn btn-color text-light">Clustering 1</button>
+        <button type="button" class="btn btn-color text-light">Clustering 2</button>
+        <br>
+        <br>
+        <h3 class="text-dark">Dimensionality Reduction</h3>
+        <p>
+            In machine learning classification problems, there are often too many factors on the basis of which the final classification is done. These factors are basically variables called features. The higher the number of features, the harder it gets to visualize the training set and then work on it. Sometimes, most of these features are correlated, and hence redundant. This is where dimensionality reduction algorithms come into play. Dimensionality reduction is the process of reducing the number of random variables under consideration, by obtaining a set of principal variables. It can be divided into feature selection and feature extraction.
+        </p>
+        <button type="button" class="btn btn-color text-light">PCA</button>
+        <button type="button" class="btn btn-color text-light">LDA</button>
+        <button type="button" class="btn btn-color text-light">GDA</button>
+
+        <br> <br> <br>
+
+        <h1 class="text-dark">Reinforcement Learning</h1> <br>
+
+        <h3 class="text-dark">Reinforcement Learning</h3>
+        <p>
+            Reinforcement learning is an area of Machine Learning. It is about taking suitable action to maximize reward in a particular situation. It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. Reinforcement learning differs from supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. In the absence of a training dataset, it is bound to learn from its experience.
+        </p>
+        <button type="button" class="btn btn-color text-light">Reinforcement Learning 1</button>
+        <br>
+    </section>
+    
+    <!-- Questions -->
+    <section class="bg-light text-secondary p-3">
+        <div class="container">
+            <h2 class="text-center text-dark mb-3">Frequently Asked Questions</h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      What is a CSV file?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. The use of the comma as a field separator is the source of the name for this file format. A CSV file typically stores tabular data (numbers and text) in plain text, in which case each line will have the same number of fields.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      Does ML Converter give 100% results?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      No, ML Converter gives the best result possible for the dataset. In fact, ML never gives 100% accuracy.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      What is the purpose of ML Converter?
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                      The main purpose of ML Converter is to provide ML applied solutions to the given dataset in a fast and easier way. This can also help you choose your interest of dataset to work on, depending on the accuracy of the dataset.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+        </div>
+    </section>
+    
+    <hr>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-center text-light">
+        <div class="container">
+            <p class="lead">
+                Copyright @ 2022 ML Converter
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
